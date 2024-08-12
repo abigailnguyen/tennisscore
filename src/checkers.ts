@@ -1,4 +1,4 @@
-import { Player } from "./match";
+import { Player } from "./player";
 
 export function checkTieBreak(player1: Player, player2: Player) {
     return player1.getWins() === 6

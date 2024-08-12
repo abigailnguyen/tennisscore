@@ -1,5 +1,7 @@
 import { checkAdvantageAndDeuce, checkSet, checkTieBreakScore } from "../checkers";
-import { Match, Player } from "../match";
+import { Match } from "../match";
+import { Player } from "../player";
+
 describe("new match", () => {
     const match = new Match('player1', 'player2');
     it("should return 0-0 when the game starts", () => {

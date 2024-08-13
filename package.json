@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --clearCache && jest -c ./jest.config.js --watch",
+    "test:ci": "jest --clearCache && jest -c ./jest.config.js",
     "start": "ts-node src/index.ts"
   },
   "author": "",
